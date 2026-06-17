@@ -7,8 +7,8 @@ C2 = int(input())
 
 start = max(A1, B1, C1)
 end = min(A2, B2, C2)
-quantidade = end - start + 1
-if A1 == A2 or B1 == B2 or C1 == C2:
+if end <= start:
   print(0)
 else:
+  quantidade = end - start + 1
   print(quantidade)
