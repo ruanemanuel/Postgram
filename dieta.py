@@ -10,6 +10,6 @@ for mole in molecules:
     tP += mole[0] * 4
     tG += mole[1] * 9
     tC += mole[2] * 4
-print(tP, tG, tC)
+
 amount = M - (tP + tG + tC)
 print(amount)              
