@@ -9,12 +9,11 @@ def find_min_max(combinations):
         num = int("".join(combinations[i]))
         nums.append(num)
     return max(nums), min(nums)
-
-N0 = int(N)
+
 numbers = []
-numbers.append(N0)
+numbers.append(N)
 for _ in range(1000):
-    combs = list(perm(str(N0)))
+    combs = list(perm(str(N)))
     high, low = find_min_max(combs)
     number = high - low
 
@@ -22,7 +21,7 @@ for _ in range(1000):
         break
     numbers.append(number)
 
-    N0 = number
+    N = number
 
 for n in numbers:
     print(n)
