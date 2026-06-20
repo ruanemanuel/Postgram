@@ -1,2 +1,2 @@
 # Postgram
-This is a repository made by Ruan Emanuel to save and send Python files
+This is a repository made by Ruan Emanuel has an objective of save and send Python files
